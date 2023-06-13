@@ -15,42 +15,24 @@
 			href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap"
 			rel="stylesheet"
 		/>
-		<link rel="stylesheet" href="./css/style.css" />
-
-		<link
-			rel="stylesheet"
-			href="./css/mobile.css"
-			media="screen and (max-width:767.9px)"
-		/>
-		<link
-			rel="stylesheet"
-			href="./css/tablet.css"
-			media="screen and (min-width:768px) and (max-width:1157.99px)"
-		/>
-		<link
-			rel="stylesheet"
-			href="./css/desktop.css"
-			media="screen and (min-width:1158px)"
-		/>
+		<link rel="stylesheet" href="./dist/css/main.min.css" />
 	</head>
 	<body>
-		<header class="page-header">
+		<header class="header">
 			<div class="container header-container">
 				<a class="link logo logo-header" href="./index.html"
-					>Web<span class="span-web">Studio</span></a
+					>Web<span class="logo-span">Studio</span></a
 				>
-				<nav class="nav-header">
-					<ul class="menu list">
-						<li class="menu-item">
-							<a class="menu-link page-viewport-link" href="./index.html"
-								>Studio</a
-							>
+				<nav class="nav">
+					<ul class="list nav-list">
+						<li class="nav-item">
+							<a class="nav-link is-active" href="./index.html">Studio</a>
 						</li>
-						<li class="menu-item">
-							<a class="menu-link link" href="./portfolio.html">Portfolio</a>
+						<li class="nav-item">
+							<a class="link nav-link" href="./portfolio.html">Portfolio</a>
 						</li>
-						<li class="menu-item">
-							<a class="menu-link link" href="">Contacts</a>
+						<li class="nav-item">
+							<a class="link nav-link" href="">Contacts</a>
 						</li>
 					</ul>
 				</nav>
@@ -60,13 +42,13 @@
 					</svg>
 				</button>
 				<address class="contacts">
-					<ul class="mail-tel list">
-						<li class="menu-item">
+					<ul class="list contacts-list">
+						<li class="contacts-item">
 							<a class="link contacts-link" href="mailto:info@devstudio.com"
 								>info@devstudio.com</a
 							>
 						</li>
-						<li class="menu-item">
+						<li class="contacts-item">
 							<a class="link contacts-link" href="tel:+110001111111"
 								>+11 (000) 111-11-11</a
 							>
@@ -81,31 +63,29 @@
 							<use href="./images/icons.svg#icon-close"></use>
 						</svg>
 					</button>
-					<ul class="menu list">
-						<li class="menu-item">
-							<a class="menu-link page-viewport-link" href="./index.html"
-								>Studio</a
-							>
+					<ul class="list nav-list">
+						<li class="nav-item">
+							<a class="nav-link is-active" href="./index.html">Studio</a>
 						</li>
-						<li class="menu-item">
-							<a class="menu-link" href="./portfolio.html">Portfolio</a>
+						<li class="nav-item">
+							<a class="nav-link" href="./portfolio.html">Portfolio</a>
 						</li>
-						<li class="menu-item">
-							<a class="menu-link" href="">Contacts</a>
+						<li class="nav-item">
+							<a class="nav-link" href="">Contacts</a>
 						</li>
 					</ul>
 					<div class="container-bottom">
-						<ul>
-							<li class="menu-item-tel">
+						<ul class="mobile-menu-contacts">
+							<li class="contact-tel">
 								<a class="link" href="tel:+110001111111">+11 (000) 111-11-11</a>
 							</li>
-							<li class="menu-item-email">
+							<li class="contact-email">
 								<a class="link" href="mailto:info@devstudio.com"
 									>info@devstudio.com</a
 								>
 							</li>
 						</ul>
-						<ul class="social-list list social-list-menu">
+						<ul class="list social-list social-list-menu">
 							<li class="social-list-icon">
 								<a class="social-list-link social-footer-link" href="#">
 									<svg
@@ -326,7 +306,7 @@
 					</ul>
 				</div>
 			</section>
-			<section class="our-team section">
+			<section class="team section">
 				<div class="container">
 					<h2 class="title">Our Team</h2>
 					<ul class="list team-list">
@@ -649,7 +629,7 @@
 			<section class="section">
 				<div class="container">
 					<h2 class="title">Customers</h2>
-					<ul class="customers-list">
+					<ul class="customers">
 						<li class="customers-item">
 							<a href class="customers-link">
 								<svg

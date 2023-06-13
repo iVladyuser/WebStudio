@@ -1,0 +1,31 @@
+.title {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.1;
+	text-align: center;
+	letter-spacing: 0.02em;
+	text-transform: capitalize;
+	color: $title-color;
+	margin-bottom: 72px;
+}
+
+.subtitle {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+	color: $title-color;
+	margin-bottom: 8px;
+}
+
+.description {
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: $description-color;
+}
+
+/*=================== in-progress =======================*/
+
+.progress-list {
+	gap: 24px;
+}
